@@ -1,0 +1,26 @@
+{
+    "name": "browser.detection",
+    "version": "1.0.0",
+    "title": "jQuery Browser detection",
+    "author": {
+        "name": "Daniele De Santis",
+        "url": "http://www.danieledesantis.net"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/danieledesantis/jquery-browser-detection/blob/master/LICENSE.md"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.11"
+    },
+	"homepage": "https://github.com/danieledesantis/jquery-browser-detection",
+    "description": "jQuery plugin for browser detection.",
+    "keywords": [
+			"Browser",
+      "Detection",
+			"User agent",
+			"Browser version"
+		]
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Browser Detection</title>
+<style>
+/* Different background colors for different browsers */
+.IE {
+	background-color:#39F;	
+}
+.Chrome {
+	background-color:#096;
+}
+.Safari {
+	background-color:#2B2930;
+}
+.Firefox {
+	background-color:#E29249;
+}
+.Opera {
+	background-color:#CA0F22;
+}
+
+/* General styles */
+body {
+	font-family:Arial, Helvetica, sans-serif;	
+}
+#message {
+	width:80%;
+	max-width:767px;
+	font-size:16px;
+	padding:60px 40px;
+	margin:40px auto;
+	border-radius:8px;
+	background:#fff;
+	box-shadow:2px 2px 8px rgba(0,0,0,0.4);
+	box-sizing:border-box;
+}
+#credits {
+	position:fixed;
+	bottom:20px;
+	left:0;
+	width:100%;
+	padding:0 20px;
+	font-size:14px;
+	text-align:center;
+	color:#fff;
+	box-sizing:border-box;
+}
+#credits a {
+	font-weight:bold;
+	color:#fff;
+}
+</style>
+</head>
+
+<body>
+
+<div id="message"></div>
+
+<div id="credits">
+jQuery Browser Detection is a plugin by <a href="http://www.danieledesantis.net" target="_blank">Daniele De Santis</a>
+</div>
+
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../jquery.browser.detection.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	var currentBrowser = $.browserDetection(true);
+	$('#message').html('According to the user ugent your browser is <strong>' + currentBrowser + '</strong>');
+});
+</script>
+</body>
+</html>
