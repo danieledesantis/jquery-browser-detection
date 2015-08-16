@@ -16,11 +16,10 @@
         "jquery": ">=1.11"
     },
 	"homepage": "https://github.com/danieledesantis/jquery-browser-detection",
-    "description": "jQuery plugin for browser detection.",
+    "description": "jQuery plugin for browser detection. Adds a class to the body tag to allow you to use different CSS rules for different browsers. The returned value can be stored in a variable and used in your code.",
     "keywords": [
 			"Browser",
       "Detection",
-			"User agent",
-			"Browser version"
+			"Version"
 		]
 }
