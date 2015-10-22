@@ -1,0 +1,23 @@
+{
+  "name": "jquery-browser-detection-1.1.0",
+  "version": "1.1.0",
+  "description": "jQuery plugin for browser detection",
+  "main": "jquery.browser.detection.js",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danieledesantis/jquery-browser-detection"
+  },
+  "author": "Daniele De Santis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danieledesantis/jquery-browser-detection/issues"
+  },
+  "homepage": "https://github.com/danieledesantis/jquery-browser-detection",
+  "devDependencies": {
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-uglify": "^0.9.2"
+  }
+}
