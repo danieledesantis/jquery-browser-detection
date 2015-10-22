@@ -2,6 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>jQuery Browser Detection</title>
 <style>
 /* Different background colors for different browsers */
@@ -63,11 +65,11 @@ jQuery Browser Detection is a plugin by <a href="http://www.danieledesantis.net"
 </div>
 
 <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="../jquery.browser.detection.min.js"></script>
+<script type="text/javascript" src="../dist/jquery.browser.detection.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	var currentBrowser = $.browserDetection(true);
-	$('#message').html('According to the user ugent your browser is <strong>' + currentBrowser + '</strong>');
+	$('#message').html('According to the user agent your browser is <strong>' + currentBrowser + '</strong>');
 });
 </script>
 </body>
